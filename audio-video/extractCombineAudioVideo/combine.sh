@@ -1,0 +1,1 @@
+ffmpeg -i fragmented-1.mp4 -i fragmented\ audio\ track\ 1.m4a -c:v copy -c:a aac output.mp4
